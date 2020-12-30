@@ -1,0 +1,64 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/viquang/Info L3/Sys IA/DISTRIBUTION/jeu.h
+math.h
+-
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+
+/home/viquang/Info L3/Sys IA/DISTRIBUTION/joueurs/joueur.cpp
+joueur.h
+/home/viquang/Info L3/Sys IA/DISTRIBUTION/joueurs/joueur.h
+
+/home/viquang/Info L3/Sys IA/DISTRIBUTION/joueurs/joueur.h
+mutex
+-
+iostream
+-
+../jeu.h
+/home/viquang/Info L3/Sys IA/DISTRIBUTION/jeu.h
+
+/home/viquang/Info L3/Sys IA/DISTRIBUTION/joueurs/joueur_alphabeta_.cpp
+joueur_alphabeta_.h
+/home/viquang/Info L3/Sys IA/DISTRIBUTION/joueurs/joueur_alphabeta_.h
+
+/home/viquang/Info L3/Sys IA/DISTRIBUTION/joueurs/joueur_alphabeta_.h
+joueur.h
+/home/viquang/Info L3/Sys IA/DISTRIBUTION/joueurs/joueur.h
+
+/home/viquang/Info L3/Sys IA/DISTRIBUTION/joueurs/joueur_brutal_.cpp
+joueur_brutal_.h
+/home/viquang/Info L3/Sys IA/DISTRIBUTION/joueurs/joueur_brutal_.h
+
+/home/viquang/Info L3/Sys IA/DISTRIBUTION/joueurs/joueur_brutal_.h
+thread
+-
+joueur.h
+/home/viquang/Info L3/Sys IA/DISTRIBUTION/joueurs/joueur.h
+
+/home/viquang/Info L3/Sys IA/DISTRIBUTION/joueurs/joueur_random.cpp
+joueur_random.h
+/home/viquang/Info L3/Sys IA/DISTRIBUTION/joueurs/joueur_random.h
+
+/home/viquang/Info L3/Sys IA/DISTRIBUTION/joueurs/joueur_random.h
+cstdlib
+-
+iostream
+-
+ctime
+-
+utility
+-
+joueur.h
+/home/viquang/Info L3/Sys IA/DISTRIBUTION/joueurs/joueur.h
+

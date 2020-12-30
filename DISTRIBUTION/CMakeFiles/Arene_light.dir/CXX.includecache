@@ -1,0 +1,92 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/viquang/Info L3/Sys IA/DISTRIBUTION/arbitre.cpp
+arbitre.h
+/home/viquang/Info L3/Sys IA/DISTRIBUTION/arbitre.h
+
+/home/viquang/Info L3/Sys IA/DISTRIBUTION/arbitre.h
+memory
+-
+iostream
+-
+chrono
+-
+thread
+-
+mutex
+-
+utility
+-
+functional
+-
+vector
+-
+jeu.h
+/home/viquang/Info L3/Sys IA/DISTRIBUTION/jeu.h
+joueurs/joueur.h
+/home/viquang/Info L3/Sys IA/DISTRIBUTION/joueurs/joueur.h
+joueurs/joueur_random.h
+/home/viquang/Info L3/Sys IA/DISTRIBUTION/joueurs/joueur_random.h
+joueurs/joueur_brutal_.h
+/home/viquang/Info L3/Sys IA/DISTRIBUTION/joueurs/joueur_brutal_.h
+joueurs/joueur_alphabeta_.h
+/home/viquang/Info L3/Sys IA/DISTRIBUTION/joueurs/joueur_alphabeta_.h
+
+/home/viquang/Info L3/Sys IA/DISTRIBUTION/jeu.cpp
+jeu.h
+/home/viquang/Info L3/Sys IA/DISTRIBUTION/jeu.h
+
+/home/viquang/Info L3/Sys IA/DISTRIBUTION/jeu.h
+math.h
+-
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+
+/home/viquang/Info L3/Sys IA/DISTRIBUTION/joueurs/joueur.h
+mutex
+-
+iostream
+-
+../jeu.h
+/home/viquang/Info L3/Sys IA/DISTRIBUTION/jeu.h
+
+/home/viquang/Info L3/Sys IA/DISTRIBUTION/joueurs/joueur_alphabeta_.h
+joueur.h
+/home/viquang/Info L3/Sys IA/DISTRIBUTION/joueurs/joueur.h
+
+/home/viquang/Info L3/Sys IA/DISTRIBUTION/joueurs/joueur_brutal_.h
+thread
+-
+joueur.h
+/home/viquang/Info L3/Sys IA/DISTRIBUTION/joueurs/joueur.h
+
+/home/viquang/Info L3/Sys IA/DISTRIBUTION/joueurs/joueur_random.h
+cstdlib
+-
+iostream
+-
+ctime
+-
+utility
+-
+joueur.h
+/home/viquang/Info L3/Sys IA/DISTRIBUTION/joueurs/joueur.h
+
+/home/viquang/Info L3/Sys IA/DISTRIBUTION/main.cpp
+iostream
+-
+mutex
+-
+arbitre.h
+/home/viquang/Info L3/Sys IA/DISTRIBUTION/arbitre.h
+
